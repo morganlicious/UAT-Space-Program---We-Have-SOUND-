@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>UAT Space Program</title> 
+    <!--links HTML to the CSS file-->
+    <link rel="stylesheet" type="text/css" href="spacepro_5.css" />
+    <!-- Elissa Alvarez -->
+</head>
+<!--adding the audio to html first so it can locate the sound file-->
+<audio id="sound">
+    <source src="Amb_EnergyPulse_LOOP.mp3">
+ </audio>
+<!--images displaying (UAT LOGO AND ROCKET)-->
+<img id = 'rocket' src = "https://i.stack.imgur.com/4G4fd.jpg" style ="float:right" width="200" height="200">
+
+<img src ="https://synchronic.uat.edu/courses/4878/files/679497/download?wrap=1">
+<br> </br>
+<body>
+
+<h1><b>UAT Space Program</h1></b>
+
+<p>Welcome to the UAT Space Program! </p>
+
+<!--upon clicking should start the game -->
+<button id='Start'>Start</button> 
+<button id='Stop'>Stop</button>
+
+<p id="DisplayCountdown">10</p>
+<br></br>
+<!--button for the user to click on that will activate the sound-->
+<button id="audiobutton">Play Sound</button>
+<!--connecting the hmtl to the js-->
+<script async src='spacepro_5.js'></script>
+
+</body>
+</html>
